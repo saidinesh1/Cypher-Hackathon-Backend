@@ -9,4 +9,11 @@ export class AppController {
   async getHello(): Promise<string> {
     return this.appService.getHello();
   }
+  async getAggregateBalance(): Promise<string> {
+    return this.appService.getAggregateBalance();
+  }
+  async WatchListManagementFeature():Promise<string>{
+    return this.appService.WatchListManagementFeature();
+  }
+  
 }
